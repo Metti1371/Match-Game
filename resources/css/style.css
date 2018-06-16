@@ -1,0 +1,40 @@
+body {
+  font-size: 14px;
+  font-family: "Work Sanse", Sans-serif;
+  background-color: rgb(255, 242, 242);
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: rgb(32, 64, 86);
+}
+
+h2 {
+  font-size: 1rem;
+  font-weight: bold;
+  color: rgb(32, 64, 86);
+}
+
+p {
+  color: rgb(74, 74, 74);
+}
+
+.container {
+  margin-top: 5.25rem;
+}
+
+.card {
+  height: 12.5rem;
+  background-color: rgb(32, 64, 86);
+  border: 4px solid #fff;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 900;
+  font-size: 7rem;
+  color: rgba(255, 255, 255);
+  /*when you hover over the number on the card, your cursor turns into a text cursor*/
+  cursor: pointer; 
+}
